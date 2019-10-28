@@ -1,0 +1,100 @@
+@charset "utf-8";
+.topBar{
+	height: 31px;
+	background-color: #F7F7F7;
+	line-height: 31px;
+}
+.topBar a:hover{color: red;}
+.container{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.leftArea{float: left;}
+.rightArea{float: right;}
+.collection{
+	background: url("../image/icon/collection.png") left center/16px 16px no-repeat;
+	padding-left: 19px;
+	font-weight: bold;
+}
+.logoBar{
+	height: 85px;
+	background-color: #1D7AD9;
+}
+.logo{
+	padding-left: 41px;
+	padding-top: 13px;
+}
+.logo img{
+	width: 112px;
+	height: 59px;
+}
+.search_box{
+	padding-left: 185px;
+	padding-top: 23px;
+	width: 430px;
+}
+.search_text{
+	width: 350px;
+	height: 35px;
+	padding: 0 5px;
+	background-color: #FFF;
+}
+.search_btn{
+	width: 70px;
+	height: 35px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei", "微软雅黑";
+	color: #FFF;
+	background-color: #FF8C00;
+}
+.shopCar{
+	width: 145px;
+	height: 35px;
+	background-color: #FF8C00;
+	margin-top: 23px;
+	font:14px/35px "Microsoft YaHei", "微软雅黑";
+	color: #FFF;
+	margin-right: 59px;
+	display: inline;
+}
+.shopText{
+	width: 87px;
+	height: 100%;
+	text-indent: 40px;
+	background: url(../image/icon/cart.png) 10px center/23px 20px no-repeat;
+	border-right: 1px solid #E27A00;
+}
+.shopNum{
+	width: 27px;
+	height: 35px;
+	text-align: right;
+	border-left: 1px solid #E27A00;
+	background: url(../image/icon/down.png) 33px center/12px 12px no-repeat;
+	padding-right: 29px;
+}
+.navBox{
+	background-color: #1369C0;
+	height: 35px;
+	color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
