@@ -563,6 +563,221 @@
 	margin: 0 auto;
 	width: 100%;
 }
+.comment_title{
+	line-height: 38px;
+	height: 38px;
+	font-size: 14px;
+	color: #656565;
+	padding-left: 10px;
+}
+.score_box{
+	padding-left: 10px;
+	height: 120px;
+}
+.score{
+	font-family: "Microsoft YaHei", "微软雅黑";
+	float: left;
+	margin-right: 10px;
+}
+.score span{
+	font-size: 50px;
+	color: #FF8F00;
+}
+.score em{
+	font-size: 18px;
+	color: #65657D;
+	font-style: normal;
+}
+.score_speed{
+	float: left;
+	width: 450px;
+	line-height: 16px;
+	font-size: 12px;
+	margin-top: 12px;
+	position: relative;
+}
+.score_text{
+	height: 16px;
+	overflow: hidden;
+	background-color: #BDBDBD;
+	color: #FFF;
+	margin-bottom: 10px;
+}
+.score_text li{
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.score_num{
+	text-align: center;
+	position: absolute;
+	left: 94%;
+	top:-21px;
+	width: 25px;
+	height: 14px;
+	background-color: #7F7F7F;
+	color: #FFF;
+}
+.score_num i{
+	border-width: 8px;
+	border-style: solid dashed dashed dashed;
+	margin-top: -2px;
+	display: inline-block;
+	border-color: #7F7F7F transparent transparent transparent;
+	width: 0; 
+	height: 0;
+}
+.review_tab{
+	height: 32px;
+	background-color: #f2f2f2;
+}
+.review{
+	line-height: 32px;
+	height: 100%;
+	padding-left: 20px;
+}
+.review li{
+	float: left;
+	height: 100%;
+	margin-right: 40px;
+}
+.review .active{
+	color: #317DE6;
+	font-weight: bold;
+	border-bottom: 2px solid #317DE6;
+	margin-bottom: -2px;
+	position: relative;
+}
+.review li a{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 5px;
+}
+.review_sort {
+	padding: 5px;
+}
+.review_sort a{
+	margin-left: 5px;
+	display: inline-block;
+	line-height: 20px;
+	border: 1px solid #CCC;
+	padding: 0 20px 0 6px;
+	background: url(../image/icon/down_3.png) right center no-repeat;
+}
+.review_list{
+	padding-top: 18px;
+	margin-bottom: 10px;
+}
+.review_user{
+	width: 170px;
+}
+.user_box{
+	width: 60px;
+	text-align: center;
+	margin-left: 40px;
+}
+.user_box p{
+	line-height: 20px;
+}
+.user_box img{
+	width: 60px;
+	height: 60px;
+	display: block;
+	margin: 2px;
+}
+.review_cont{
+	padding-left: 170px;
+}
+.review_top{
+	height: 24px;
+	padding-top: 4px;
+}
+.star_text{
+	font-weight: bold;
+	padding-left: 10px;
+}
+.star_box .stars{
+	margin-top: 1px;
+}
+.stars{
+	width: 13px;
+	height: 12px;
+	overflow: hidden;
+	background: url(../image/icon/collection.png) left center/13px 12px no-repeat;
+	display: inline-block;
+	margin-right: 1px;
+}
+.review_cont p{
+	line-height: 30px;
+}
+.page{
+	text-align: center;
+}
+.page a{
+	height: 24px;
+	line-height: 24px;
+	display: inline-block;
+	border: 1px solid #CCC;
+	padding: 0 12px;
+	margin: 0 2px;
+}
+.page .ellipsis{
+	display: inline-block;
+	padding: 0 12px;
+	margin: 0 2px;
+}
+.morePage{
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+}
+.pageNum{
+	width: 29px;
+	padding: 0 3px;
+	border: 1px solid #CCC;
+	height: 24px;
+	text-align: center;
+}
+.page_btn{
+	width: 44px;
+	height: 24px;
+	background-color: #E8E8E8;
+	border: 1px solid #CCC;
+}
+.hr_45{
+	height: 45px;
+}
+/*底部*/
+.footer{
+	width: 100%;
+	min-height: 140px;
+	background-color: #D4D4D4;
+	padding: 40px 0;
+}
+.footer p{
+	font-family: "Microsoft YaHei", "微软雅黑";
+	font-size: 12px;
+	line-height: 22px;
+	text-align: center;
+	color: #000;
+}
+
+.hrefs a{
+	color: #000;
+}
+.hrefs a:hover{
+	color: #F60;
+	cursor: pointer;
+}
+.hrefs_pic{padding-top: 40px;}
+.hrefs_pic a img{margin: 0 10px;}
+
+
+
+
 
 
 
