@@ -347,6 +347,11 @@
 .screening_list_more .item{
 	width: 33.3%;
 	position: relative;
+	margin-top: 10px;
+}
+.item {
+	float: left;
+	position: relative;
 }
 .item_cont{
 	padding: 0 15px;
@@ -372,9 +377,84 @@
 .screening_list_more .addCart_box{
 	text-align: center;
 }
+.addCar{
+	border:1px solid #999;
+	height: 22px;
+	display: inline-block;
+	padding: 0 6px 0 23px;
+	background: url(../image/icon/addCar.png) 6px center no-repeat;
+}
+.hot{
+	width: 56px;
+	height: 56px;
+	background: url(../image/icon/hot.png) left top no-repeat;
+	position: absolute;
+	right: 0;
+	top:0;
+}
+.hr_25{
+	height: 25px;
+}
+.page{
+	text-align: center;
+}
+.page a{
+	height: 24px;
+	line-height: 24px;
+	display: inline-block;
+	border: 1px solid #CCC;
+	padding: 0 12px;
+	margin: 0 2px;
+}
+.page .ellipsis{
+	display: inline-block;
+	padding: 0 12px;
+	margin: 0 2px;
+}
+.morePage{
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+}
+.pageNum{
+	width: 29px;
+	padding: 0 3px;
+	border: 1px solid #CCC;
+	height: 24px;
+	text-align: center;
+}
+.page_btn{
+	width: 44px;
+	height: 24px;
+	background-color: #E8E8E8;
+	border: 1px solid #CCC;
+}
+/*底部*/
+.footer{
+	width: 100%;
+	min-height: 140px;
+	background-color: #D4D4D4;
+	padding: 40px 0;
+}
+.footer p{
+	font-family: "Microsoft YaHei", "微软雅黑";
+	font-size: 12px;
+	line-height: 22px;
+	text-align: center;
+	color: #000;
+}
 
-
-
+.hrefs a{
+	color: #000;
+}
+.hrefs a:hover{
+	color: #F60;
+	cursor: pointer;
+}
+.hrefs_pic{padding-top: 40px;}
+.hrefs_pic a img{margin: 0 10px;}
 
 
 
