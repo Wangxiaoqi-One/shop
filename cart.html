@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/cart.css">
+</head>
+<body>
+	<div class="header">
+		<div class="topBar">
+			<div class="container">
+				<div class="leftArea">
+					<a href class="collection">收藏</a>
+				</div>
+				<div class="rightArea">
+					欢迎来到佰多维商城！
+					<a href="">[登录]</a>
+					<a href="">[注册]</a>
+				</div>
+			</div>
+		</div>
+		<div class="logoBar">
+			<div class="container">
+				<div class="logo fl">
+					<a href="">
+						<img src="image/logo.jpg" alt="">
+					</a>
+				</div>
+				<div class="stepBox fr">
+					<div class="step"></div>
+					<ul class="step_text">
+						<li class="step_1 active">我的购物车</li>
+						<li class="step_2 active">填写核对订单</li>
+						<li class="step_3">订单提交成功</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="shoppingCart container">
+		<!-- 收货地址 -->
+		<div class="shopping_item">
+			<h3 class="shopping_title">收货地址</h3>
+			<div class="shopping_cont padding_shop">
+				<ul class="shopping_list">
+					<li>
+						<span class="shopping_list_text">
+							<em>*</em>地区:
+						</span>
+						<div class="select">
+							<h3>海淀区五环内</h3>
+							<span></span>
+							<ul class="show_select">
+								<li>上地</li>
+								<li>五道口</li>
+								<li>中关村</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<span class="shopping_list_text">
+							<em>*</em>详细地址:
+						</span>
+						<input type="text" placeholder="最多输入20个汉字" class="input" size="50">
+					</li>
+					<li>
+						<span class="shopping_list_text">
+							<em>*</em>收货人:
+						</span>
+						<input type="text" placeholder="最多10个汉字" class="input" size="16">
+					</li>
+					<li>
+						<span class="shopping_list_text">
+							<em>*</em>手机:
+						</span>
+						<input type="text" placeholder="如13353673298" class="input" size="16">
+						&nbsp;或固定电话:
+						<input type="text" class="input" placeholder="区号" size="16">
+						<span class="jian">-</span>
+						<input type="text" class="input" placeholder="电话号码" size="16">
+						<span class="jian">-</span>
+						<input type="text" class="input" placeholder="分机号(可选)" size="16">
+					</li>
+					<li>
+						<input type="button" class="addr_btn" value="确认收货地址">
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="hr_15"></div>
+	</div>
+	<div class="hr_25"></div>
+	<div class="footer"></div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+@charset "utf-8";
+/*头部的顶部*/
+.topBar{
+	height: 31px;
+	background-color: #F7F7F7;
+	line-height: 31px;
+}
+.topBar a:hover{color: red;}
+.container{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;}
+.leftArea{float: left;}
+.collection{
+	background: url("../image/icon/collection.png") left center/16px 16px no-repeat;
+	padding-left: 19px;
+	font-weight: bold;
+}
+.rightArea{float: right;}
+/*头部的logo区*/
+.logoBar{
+	height: 85px;
+	background-color: #1D7AD9;
+}
+.logo{
+	padding-left: 41px;
+	padding-top: 13px;
+}
+.logo img{
+	width: 112px;
+	height: 59px;
+}
+.stepBox{
+	width: 396px;
+	padding-top: 26px;
+}
+.step{
+	background: url(../image/step.png) left top no-repeat;
+	height: 20px;
+}
+.step_text{
+	color: #FFF;
+	font-size: 12px;
+	line-height: 30px;
+}
+.step_text .active{
+	color: #F3E402;
+	font-weight: bold;
+}
+.step_text li{
+	float: left;
+}
+.step_1, .step_3{
+	width: 30%;
+}
+.step_2{
+	width: 40%;
+	text-align: center;
+}
+.step_3{
+	text-align: right;
+}
+.shoppingCart{
+	padding-top: 10px;
+}
+.shopping_item{
+	border:1px solid #CCC;
+}
+.shopping_item .shopping_title{
+	height: 31px;
+	background-color: #ededed;
+	font-size: 16px;
+	color: #444444;
+	line-height: 31px;
+	font-family: "Micosoft YaHei", "微软雅黑";
+	text-indent: 12px;
+	border-bottom: 1px solid #CCC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
